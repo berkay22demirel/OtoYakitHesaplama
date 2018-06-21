@@ -1,0 +1,353 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorBackground">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:paddingBottom="20dp"
+            android:paddingTop="20dp"
+            android:paddingLeft="30dp"
+            android:paddingRight="30dp">
+
+    <TextView
+        android:id="@+id/textViewRaporPlakalar"
+        android:background="@drawable/plaka"
+        android:textColor="#000000"
+        android:textStyle="bold"
+        android:layout_gravity="center"
+        android:layout_width="200dp"
+        android:layout_height="40dp"
+        android:textSize="28dp"
+        android:paddingLeft="40dp"
+        android:layout_marginBottom="20dp"
+        android:text="Tümü" />
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="0.5">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:srcCompat="@android:drawable/ic_menu_month"
+                android:id="@+id/imageViewRapor"
+                android:layout_weight="0"
+                android:layout_gravity="center" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textViewRaporBaslangicTarih"
+                android:textSize="14sp"
+                android:paddingTop="10dp"
+                android:paddingBottom="10dp"
+                android:paddingRight="5dp"
+                android:paddingLeft="5dp"
+                android:layout_weight="0"
+                android:layout_marginLeft="10dp"
+                android:text="Başlangıç" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="0.5">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:srcCompat="@android:drawable/ic_menu_month"
+                android:id="@+id/imageViewRapor2"
+                android:layout_weight="0"
+                android:layout_gravity="center" />
+
+            <TextView
+                android:text="Bitiş"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textViewRaporBitisTarih"
+                android:textSize="14sp"
+                android:paddingRight="5dp"
+                android:paddingLeft="5dp"
+                android:paddingBottom="10dp"
+                android:paddingTop="10dp"
+                android:layout_weight="0"
+                android:layout_marginLeft="10dp" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/colorText"
+        android:layout_marginBottom="20dp"
+        android:layout_marginTop="20dp" />
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="20dp">
+
+                <LinearLayout
+                    android:orientation="vertical"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="0.1">
+
+                    <TextView
+                android:text="Toplam Katedilen Yol"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textViewRaporToplamKatedilenYol"
+                android:textSize="14sp"
+                        android:layout_marginBottom="10dp" />
+
+                    <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                        android:layout_marginLeft="20dp">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    app:srcCompat="@drawable/yol"
+                    android:id="@+id/ImageViewRaporToplamKatedilenYol"
+                    android:layout_weight="1"
+                    android:layout_height="14sp"
+                    android:layout_marginTop="3dp" />
+
+                <TextView
+                    android:text="0 KM"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/textViewRaporToplamKatedilenYolSonuc"
+                    android:textSize="14sp"
+                    android:layout_weight="0.1"
+                    android:layout_marginLeft="15dp" />
+
+            </LinearLayout>
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="20dp">
+
+                <LinearLayout
+                    android:orientation="vertical"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="0.1">
+
+                    <TextView
+                android:text="Toplam Ödenen Ücret"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textViewRaporToplamOdenenUcret"
+                android:textSize="14sp"
+                        android:layout_marginBottom="10dp" />
+
+                    <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                        android:layout_marginLeft="20dp">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    app:srcCompat="@drawable/ucret"
+                    android:id="@+id/ImageViewRaporToplamOdenenUcret"
+                    android:layout_weight="1"
+                    android:layout_height="14sp"
+                    android:layout_marginTop="3dp" />
+
+                <TextView
+                    android:text="0 TL"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/textViewRaporToplamOdenenUcretSonuc"
+                    android:textSize="14sp"
+                    android:layout_weight="0.1"
+                    android:layout_marginLeft="15dp" />
+
+            </LinearLayout>
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="20dp">
+
+                <LinearLayout
+                    android:orientation="vertical"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="0.1">
+
+                    <TextView
+                android:text="Toplam Tüketilen Yakıt Miktarı"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textViewRaporToplamTüketilenYakitMiktari"
+                android:textSize="14sp"
+                        android:layout_marginBottom="10dp" />
+
+                    <LinearLayout
+                        android:orientation="horizontal"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginLeft="20dp">
+
+                        <ImageView
+                            android:layout_width="wrap_content"
+                            app:srcCompat="@drawable/yakit"
+                            android:id="@+id/ImageViewRaporToplamTüketilenYakitMiktari"
+                            android:layout_weight="1"
+                            android:layout_height="14sp"
+                            android:layout_marginTop="3dp" />
+
+                        <TextView
+                            android:text="0 Litre"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:id="@+id/textViewRaporToplamTüketilenYakitMiktariSonuc"
+                            android:textSize="14sp"
+                            android:layout_weight="0.1"
+                            android:layout_marginLeft="15dp" />
+
+                    </LinearLayout>
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="20dp">
+
+                <LinearLayout
+                    android:orientation="vertical"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="0.1">
+
+                    <TextView
+                android:text="Günde Ödenen Ortalama Ücret"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textViewRaporGundeOdenenOrtalamaUcret"
+                android:textSize="14sp"
+                        android:layout_marginBottom="10dp" />
+
+                    <LinearLayout
+                        android:orientation="horizontal"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginLeft="20dp">
+
+                        <ImageView
+                            android:layout_width="wrap_content"
+                            app:srcCompat="@drawable/ucret"
+                            android:id="@+id/ImageViewRaporGundeOdenenOrtalamaUcret"
+                            android:layout_weight="1"
+                            android:layout_height="14sp"
+                            android:layout_marginTop="3dp" />
+
+                        <TextView
+                            android:text="0 TL"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:id="@+id/textViewRaporGundeOdenenOrtalamaUcretSonuc"
+                            android:textSize="14sp"
+                            android:layout_weight="0.1"
+                            android:layout_marginLeft="15dp" />
+
+                    </LinearLayout>
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <LinearLayout
+                    android:orientation="vertical"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="0.1">
+
+                    <TextView
+                android:text="1 Km'ye Ödenen Ortalama Ücret"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textViewRaporBirKmYeOdenenOrtalamaUcret"
+                android:textSize="14sp"
+                        android:layout_marginBottom="10dp" />
+
+                    <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                        android:layout_marginLeft="20dp">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    app:srcCompat="@drawable/ucret"
+                    android:id="@+id/ImageViewRaporOrtalamaBirKmYeOdenenUcret"
+                    android:layout_weight="1"
+                    android:layout_height="14sp"
+                    android:layout_marginTop="3dp" />
+
+                <TextView
+                    android:text="0 TL"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/textViewRaporOrtalamaBirKmYeOdenenUcretSonuc"
+                    android:textSize="14sp"
+                    android:layout_weight="0.1"
+                    android:layout_marginLeft="15dp" />
+
+            </LinearLayout>
+                </LinearLayout>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>

@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorBackground"
+    android:focusable="true"
+    android:focusableInTouchMode="true">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:layout_margin="30dp">
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="numberDecimal"
+                android:ems="10"
+                android:hint="Ödenen Ücret (TL) Örn. 125"
+                android:id="@+id/editTextHesaplaUcret"
+                android:maxLength="6"
+                android:layout_weight="0"
+                android:layout_marginBottom="20dp" />
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:id="@+id/editTextHesaplaYol"
+                android:hint="Katedilen Yol (Km) Örn. 95"
+                android:inputType="numberDecimal"
+                android:maxLength="6"
+                android:layout_weight="0"
+                android:layout_marginBottom="20dp" />
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:id="@+id/editTextHesaplaFiyat"
+                android:hint="Yakıtın Litre Fiyatı (TL) Örn. 2.95"
+                android:inputType="numberDecimal"
+                android:maxLength="6"
+                android:layout_weight="0"
+                android:layout_marginBottom="20dp" />
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="0"
+                android:layout_marginBottom="20dp">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    app:srcCompat="@android:drawable/ic_menu_month"
+                    android:id="@+id/imageView"
+                    android:layout_weight="0"
+                    android:layout_gravity="center" />
+
+                <TextView
+                    android:text="Yakıt Alım Tarihini Seçiniz..."
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/textViewHesaplaBaslangicTarih"
+                    android:textSize="18sp"
+                    android:paddingTop="10dp"
+                    android:paddingBottom="10dp"
+                    android:paddingRight="5dp"
+                    android:paddingLeft="5dp"
+                    android:layout_weight="0"
+                    android:layout_marginLeft="10dp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="0"
+                android:layout_marginBottom="20dp">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    app:srcCompat="@android:drawable/ic_menu_month"
+                    android:id="@+id/imageView2"
+                    android:layout_weight="0"
+                    android:layout_gravity="center" />
+
+                <TextView
+                    android:text="Yakıt Bitiş Tarihini Seçiniz..."
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/textViewHesaplaBitisTarih"
+                    android:textSize="18sp"
+                    android:paddingRight="5dp"
+                    android:paddingLeft="5dp"
+                    android:paddingBottom="10dp"
+                    android:paddingTop="10dp"
+                    android:layout_weight="0"
+                    android:layout_marginLeft="10dp" />
+            </LinearLayout>
+
+            <Button
+                android:text="HESAPLA"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/buttonHesapla"
+                android:backgroundTint="#2998D1"
+                android:layout_weight="0"/>
+
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

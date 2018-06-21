@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Oto Yakıt Hesaplama</string>
+    <string-array name="tab_titles">
+        <item>Hesapla</item>
+        <item>Kayıtlarım</item>
+        <item>Rapor</item>
+    </string-array>
+</resources>
