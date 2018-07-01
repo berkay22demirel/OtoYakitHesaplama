@@ -21,12 +21,6 @@ Google Play Link : https://play.google.com/store/apps/details?id=com.berkay22dem
 Uygulama Açıklaması</h4>
 Geliştirdiğim onlarca küçük uygulamadan sonra Google Play'e yüklemek üzere bir büyük uygulama geliştirmeye karar vermemden kısa bir süre sonra bu uygulamayı artık yayınlıyorum. Aslında biran önce bu deneyimi yaşamak istememden dolayı biraz aceleye geldi bu uygulama ancak benim için çok güzel bir deneyim oldu. Bir çok yeni yapı kullandım. Bir yerden başlayınca devamı gelir mantığı ile araştırarak yeni bir şeyler daha ekleyeyim diyerek bir çok özelliği olan bir uygulama geliştirdim. Beni en çok zorlayan kısmı tarih kısmı oldu. Kullanıcının harcadığı yakıtı istediği tarihler aralığında gösterme, filtreleme gibi özellikler biraz zamanımı alsa da hepsinin üstesinden geldim ve şimdi ilk uygulamamı yayınladım. İndirip destek olursanız çok sevinirim ve ayrıca geri bildirimleriniz benim için çok önemli. Şimdiden teşekkür ederim.<br />
 <h4>
-Google Play</h4>
-<div>
-<a href="https://play.google.com/store/apps/details?id=com.berkay22demirel.otoyakthesaplama" target="_blank">https://play.google.com/store/apps/details?id=com.berkay22demirel.otoyakthesaplama</a></div>
-<div>
-<br /></div>
-<h4>
 Uygulamanın Yapısı</h4>
 <div class="separator" style="clear: both; text-align: center;">
 <a href="https://3.bp.blogspot.com/-x2gPFzMCJNo/WywcdPhY8KI/AAAAAAAACe0/Ih-VATSmr1MqQCk7xz1ijmvnS1bIPjkjQCLcBGAs/s1600/sadf.jpg" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img border="0" data-original-height="625" data-original-width="322" height="320" src="https://3.bp.blogspot.com/-x2gPFzMCJNo/WywcdPhY8KI/AAAAAAAACe0/Ih-VATSmr1MqQCk7xz1ijmvnS1bIPjkjQCLcBGAs/s320/sadf.jpg" width="164" /></a></div>
