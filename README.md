@@ -27,11 +27,6 @@ Google Play</h4>
 <div>
 <br /></div>
 <h4>
-Github</h4>
-<div>
-Prensip gereği geliştirdiğim uygulamaları açık kaynak kod olarak geliştiriyorum. Uygulamanın tüm kodlarını Github profilimde bulabilirsiniz.</div>
-<a href="https://github.com/berkay22demirel/OtoYakitHesaplama" target="_blank">https://github.com/berkay22demirel/OtoYakitHesaplama</a><br />
-<h4>
 Uygulamanın Yapısı</h4>
 <div class="separator" style="clear: both; text-align: center;">
 <a href="https://3.bp.blogspot.com/-x2gPFzMCJNo/WywcdPhY8KI/AAAAAAAACe0/Ih-VATSmr1MqQCk7xz1ijmvnS1bIPjkjQCLcBGAs/s1600/sadf.jpg" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img border="0" data-original-height="625" data-original-width="322" height="320" src="https://3.bp.blogspot.com/-x2gPFzMCJNo/WywcdPhY8KI/AAAAAAAACe0/Ih-VATSmr1MqQCk7xz1ijmvnS1bIPjkjQCLcBGAs/s320/sadf.jpg" width="164" /></a></div>
